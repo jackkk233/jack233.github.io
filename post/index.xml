@@ -27,9 +27,6 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;4哪吒探针&#34;&gt;4.哪吒探针&lt;/h2&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/naiba/nezha&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;主控端&#34;&gt;主控端&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh  -o nezha.sh &amp;amp;&amp;amp; chmod +x nezha.sh &amp;amp;&amp;amp; sudo ./nezha.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;被控端&#34;&gt;被控端&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh  -o nezha.sh &amp;amp;&amp;amp; chmod +x nezha.sh &amp;amp;&amp;amp; sudo ./nezha.sh
 &lt;/code&gt;&lt;/pre&gt;</description>
         </item>
