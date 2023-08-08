@@ -2,19 +2,19 @@
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content=''>
-<title>Categories</title>
+<title>搜索</title>
 
-<link rel='canonical' href='https://blog.jackkk.top/categories/'>
+<link rel='canonical' href='https://blog.jackkk.top/page/search/'>
 
-<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='Categories'>
+<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='搜索'>
 <meta property='og:description' content=''>
-<meta property='og:url' content='https://blog.jackkk.top/categories/'>
+<meta property='og:url' content='https://blog.jackkk.top/page/search/'>
 <meta property='og:site_name' content='JackBlog'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2019-05-28T00:00:00&#43;00:00 '/>
-<meta name="twitter:title" content="Categories">
-<meta name="twitter:description" content=""><link rel="alternate" type="application/rss&#43;xml" href="https://blog.jackkk.top/categories/index.xml">
+<meta property='og:type' content='article'><meta property='article:section' content='Page' />
+<meta name="twitter:title" content="搜索">
+<meta name="twitter:description" content=""><link rel="alternate" type="application/json" href="https://blog.jackkk.top/page/search/index.json"><link rel="preload" href="https://blog.jackkk.top/page/search/index.json" as="fetch" crossorigin="anonymous">
     </head>
-    <body class="">
+    <body class="template-search">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -131,7 +131,7 @@
         </li>
         
         
-        <li >
+        <li  class='current' >
             <a href='/page/search/' >
                 
                 
@@ -196,29 +196,34 @@
     </ol>
 </aside>
 
-    
-
             <main class="main full-width">
-    <header>
-        <h3 class="section-title">
-            
-                
-            
-        </h3>
+<form action="https://blog.jackkk.top/page/search/" class="search-form"data-json="https://blog.jackkk.top/page/search/index.json">
+    <p>
+        <label>搜索</label>
+        <input name="keyword" placeholder="输入关键词..." />
+    </p>
 
-        <div class="section-card">
-            <div class="section-details">
-                <h3 class="section-count"></h3>
-                <h1 class="section-term">Categories</h1>
-                
-            </div>
-        </div>
-    </header>
-        
-    
-    <section class="article-list--compact">
-        
-    </section>
+    <button title="搜索">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+    </button>
+</form>
+
+<div class="search-result">
+    <h3 class="search-result--title section-title"></h3>
+    <div class="search-result--list article-list--compact"></div>
+</div>
+
+<script>
+    window.searchResultTitleTemplate = "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"
+</script><script type="text/javascript" src="/ts/search.js" defer></script>
+
 <footer class="site-footer">
     <section class="copyright">
         &copy; 

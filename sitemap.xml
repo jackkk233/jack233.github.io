@@ -2,24 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/page/archives/</loc>
+    <loc>https://blog.jackkk.top/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/page/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <loc>https://blog.jackkk.top/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/page/about/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <loc>https://blog.jackkk.top/page/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://blog.jackkk.top/categories/</loc>
   </url><url>
-    <loc>/page/links/</loc>
+    <loc>https://blog.jackkk.top/tags/</loc>
   </url><url>
-    <loc>/page/search/</loc>
+    <loc>https://blog.jackkk.top/page/about/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://blog.jackkk.top/page/search/</loc>
+  </url><url>
+    <loc>https://blog.jackkk.top/page/links/</loc>
   </url>
 </urlset>
